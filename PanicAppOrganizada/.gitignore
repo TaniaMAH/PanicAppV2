@@ -1,0 +1,132 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+**/.xcode.env.local
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+.kotlin/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+**/Pods/
+/vendor/bundle/
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
+
+# testing
+/coverage
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# ===============================================
+# CONFIGURACIÓN ADICIONAL - PanicApp Organizada
+# ===============================================
+
+# 🔐 Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# 📱 Development
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🔧 IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 📊 Analysis
+bundle-analyzer-report.html
+.nyc_output
+coverage/
+
+# 🚀 Deployment
+dist/
+build/
+.expo/
+
+# 🔄 Temporary
+temp/
+tmp/
+.temp/
+.tmp/
+
+# 📱 Platform specific
+.DS_Store
+Thumbs.db
+
+# 🔙 Backups
+backup/
+*.backup
+*.bak
+
+# ===============================================
+# ARCHIVOS SENSIBLES - NUNCA SUBIR
+# ===============================================
+.env
+.env.local
+.env.production
+private-keys.txt
+wallet-backup.*
